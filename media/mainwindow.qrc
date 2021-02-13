@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/MainWindow" >
+        <file>fileOpen.png</file>
+        <file>logoDelta.png</file>
+        <file>redrawAlways.png</file>
+    </qresource>
+</RCC>

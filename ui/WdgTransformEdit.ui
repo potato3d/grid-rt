@@ -1,0 +1,224 @@
+<ui version="4.0" >
+ <class>WdgTransformEdit</class>
+ <widget class="QWidget" name="WdgTransformEdit" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>365</width>
+    <height>22</height>
+   </rect>
+  </property>
+  <property name="minimumSize" >
+   <size>
+    <width>365</width>
+    <height>22</height>
+   </size>
+  </property>
+  <property name="maximumSize" >
+   <size>
+    <width>365</width>
+    <height>22</height>
+   </size>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label" >
+   <property name="geometry" >
+    <rect>
+     <x>50</x>
+     <y>1</y>
+     <width>16</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text" >
+    <string>X:</string>
+   </property>
+   <property name="scaledContents" >
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2" >
+   <property name="geometry" >
+    <rect>
+     <x>124</x>
+     <y>1</y>
+     <width>16</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text" >
+    <string>Y:</string>
+   </property>
+   <property name="scaledContents" >
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3" >
+   <property name="geometry" >
+    <rect>
+     <x>198</x>
+     <y>1</y>
+     <width>16</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text" >
+    <string>Z:</string>
+   </property>
+   <property name="scaledContents" >
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbApply" >
+   <property name="geometry" >
+    <rect>
+     <x>2</x>
+     <y>2</y>
+     <width>40</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Apply</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sbX" >
+   <property name="geometry" >
+    <rect>
+     <x>65</x>
+     <y>2</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimum" >
+    <number>1</number>
+   </property>
+   <property name="maximum" >
+    <number>2000</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sbY" >
+   <property name="geometry" >
+    <rect>
+     <x>135</x>
+     <y>2</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimum" >
+    <number>1</number>
+   </property>
+   <property name="maximum" >
+    <number>2000</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sbZ" >
+   <property name="geometry" >
+    <rect>
+     <x>210</x>
+     <y>2</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimum" >
+    <number>1</number>
+   </property>
+   <property name="maximum" >
+    <number>2000</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4" >
+   <property name="geometry" >
+    <rect>
+     <x>287</x>
+     <y>0</y>
+     <width>16</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text" >
+    <string>K:</string>
+   </property>
+   <property name="scaledContents" >
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="Line" name="line" >
+   <property name="geometry" >
+    <rect>
+     <x>273</x>
+     <y>-2</y>
+     <width>3</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="orientation" >
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="dsbK" >
+   <property name="geometry" >
+    <rect>
+     <x>300</x>
+     <y>0</y>
+     <width>50</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="minimum" >
+    <double>0.010000000000000</double>
+   </property>
+   <property name="singleStep" >
+    <double>0.100000000000000</double>
+   </property>
+   <property name="value" >
+    <double>1.000000000000000</double>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <designerdata>
+  <property name="gridDeltaX" >
+   <number>10</number>
+  </property>
+  <property name="gridDeltaY" >
+   <number>10</number>
+  </property>
+  <property name="gridSnapX" >
+   <bool>false</bool>
+  </property>
+  <property name="gridSnapY" >
+   <bool>false</bool>
+  </property>
+  <property name="gridVisible" >
+   <bool>true</bool>
+  </property>
+ </designerdata>
+</ui>
