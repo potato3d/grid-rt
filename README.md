@@ -15,6 +15,8 @@ The CUDA ray tracing implementation is in include/rtc and src/rtcuda directories
 
 This project also includes CPU-based ray tracing routines in include/rt, include/rtp, src/rtcore and src/rtplugins directories. Also includes CPU-based optimized kd-tree construction and traversal routines.
 
+Please check the paper reference above for more implementation details.
+
 # Examples
 
 These are some images generated with our algorithm for benchmark animated scenes:
