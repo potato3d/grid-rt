@@ -3,7 +3,7 @@ GPU-accelerated ray tracing using GLSL and CUDA
 
 Source code for the article [GPU-Accelerated Uniform Grid Construction for Ray Tracing](http://www.dbd.puc-rio.br/depto_informatica/09_14_ivson.pdf)
 
-This repository implements the Qt ray-tracing application that uses the library from the [grid](https://github.com/potato3d/grid) project.
+This repository implements the Qt ray-tracing application that uses the library from the [grid](https://github.com/potato3d/grid) repository.
 
 # Description
 
